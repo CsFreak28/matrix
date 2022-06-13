@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "quillon";
+  src: url("./Quilon-Bold.woff2");
+}
+@font-face {
+  font-family: "amagro";
+  src: url("./Amagro.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.title {
+  font-family: "creme";
+  font-size: 500px;
+}
+.matrix {
+  display: flex;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.digitalSpacesContainer {
+  /* background-color: green; */
+  align-self: flex-start;
+}
+.digitSpaces {
+  font-family: "amagro";
+  font-size: 120px;
+  /* background-color: blue; */
+  margin-top: 80px;
+}
+.brackets {
+  font-size: 500px;
+  font-family: "quillon";
+  display: inline-block;
+  /* background-color: green; */
+}
